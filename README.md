@@ -1,3 +1,1 @@
-# edu_uz
-lorem ipsum
-Test
+lorem test
