@@ -280,68 +280,99 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Davomat</h4>
-                  <div class="table-responsive">
+<!-- TAB MENU -->
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">1 - Otryad</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">2 - Otryad</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">3 - Otryad</button>
+                    </li>
+                  </ul>
+              
+                  <!-- Tab Content -->
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      
+                      <div class="table-responsive">
                     
-                    <table border="1" cellpadding="10" cellspacing="0" class="table table-bordered">
-                      <thead>
-                          <tr>
-                              <th>#</th>
-                              <th>Guruh tayyorgarligi bosqichi</th>
-                              <th>Dars sanasi</th>
-                              <th>Mashg`ulotlar nomlanishi</th>
-                              <th>Mashg'ulot uslubi</th>
-                              <th>Sababli</th>
-                              <th>Soatlar</th>
-                              <th>Xodim</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr>
-                              <td>1</td>
-                              <td>1-hafta</td>
-                              <td>13-02-2025 11:30</td>
-                              <td>Jismoniy tayyorgarlik</td>
-                              <td>Ma’ruza</td>
-                              <td>Yo’q</td>
-                              <td>2</td>
-                              <td>INYATOV ALMAZ REYMBAEVICH</td>
-                          </tr>
-                          <tr>
-                              <td>2</td>
-                              <td>2-hafta</td>
-                              <td>05-02-2025 11:30</td>
-                              <td>Saf tayyorgarligi</td>
-                              <td>Ma’ruza</td>
-                              <td>Yo’q</td>
-                              <td>2</td>
-                              <td>SEYTNIYAZOV SAPARNIYAZ PALAUNIYAZOVICH</td>
-                          </tr>
-                          <tr>
-                              <td>3</td>
-                              <td>3-hafta</td>
-                              <td>03-02-2025 16:00</td>
-                              <td>Harbiy topografiya</td>
-                              <td>Ma’ruza</td>
-                              <td>Yo’q</td>
-                              <td>2</td>
-                              <td>SEYTNIYAZOV SAPARNIYAZ PALAUNIYAZOVICH</td>
-                          </tr>
-                          <tr>
-                              <td>4</td>
-                              <td>4-hafta</td>
-                              <td>03-02-2025 13:00</td>
-                              <td>Ruhiy tayyorgarlik</td>
-                              <td>Ma’ruza</td>
-                              <td>Yo’q</td>
-                              <td>2</td>
-                              <td>SEYTNIYAZOV SAPARNIYAZ PALAUNIYAZOVICH</td>
-                          </tr>
-                      </tbody>
-                  </table>
-                                 
-                    
-                    
+                        <table border="1" cellpadding="10" cellspacing="0" class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>#</th>
+                                  <th>Guruh tayyorgarligi bosqichi</th>
+                                  <th>Dars sanasi</th>
+                                  <th>Mashg`ulotlar nomlanishi</th>
+                                  <th>Mashg'ulot uslubi</th>
+                                  <th>Sababli</th>
+                                  <th>Soatlar</th>
+                                  <th>Xodim</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>1-hafta</td>
+                                  <td>13-02-2025 11:30</td>
+                                  <td>Jismoniy tayyorgarlik</td>
+                                  <td>Ma’ruza</td>
+                                  <td>Yo’q</td>
+                                  <td>2</td>
+                                  <td>INYATOV ALMAZ REYMBAEVICH</td>
+                              </tr>
+                              <tr>
+                                  <td>2</td>
+                                  <td>2-hafta</td>
+                                  <td>05-02-2025 11:30</td>
+                                  <td>Saf tayyorgarligi</td>
+                                  <td>Ma’ruza</td>
+                                  <td>Yo’q</td>
+                                  <td>2</td>
+                                  <td>SEYTNIYAZOV SAPARNIYAZ PALAUNIYAZOVICH</td>
+                              </tr>
+                              <tr>
+                                  <td>3</td>
+                                  <td>3-hafta</td>
+                                  <td>03-02-2025 16:00</td>
+                                  <td>Harbiy topografiya</td>
+                                  <td>Ma’ruza</td>
+                                  <td>Yo’q</td>
+                                  <td>2</td>
+                                  <td>SEYTNIYAZOV SAPARNIYAZ PALAUNIYAZOVICH</td>
+                              </tr>
+                              <tr>
+                                  <td>4</td>
+                                  <td>4-hafta</td>
+                                  <td>03-02-2025 13:00</td>
+                                  <td>Ruhiy tayyorgarlik</td>
+                                  <td>Ma’ruza</td>
+                                  <td>Yo’q</td>
+                                  <td>2</td>
+                                  <td>SEYTNIYAZOV SAPARNIYAZ PALAUNIYAZOVICH</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                                     
+                        
+                      </div>
+
+
+
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <p class="mt-3">This is the Profile tab content.</p>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                      <p class="mt-3">This is the Contact tab content.</p>
+                    </div>
                   </div>
+                </div>
+<!-- TAB MENYU -->
+
+                  
                 </div>
               </div>
             </div>
@@ -350,14 +381,6 @@
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:../../partials/_footer.html -->
-        <footer class="footer">
-  <div class="d-sm-flex justify-content-center justify-content-sm-between">
-    <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2024 <a
-        href="https://www.bootstrapdash.com/" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
-    <span class="float-none float-sm-end d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i
-        class="mdi mdi-heart text-danger"></i></span>
-  </div>
-</footer>
         <!-- partial -->
       </div>
       <!-- main-panel ends -->
