@@ -12404,6 +12404,8 @@ textarea.is-invalid.tt-hint, .select2-container--default .select2-selection--sin
   text-decoration: none;
   white-space: nowrap;
 }
+
+
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
 }
